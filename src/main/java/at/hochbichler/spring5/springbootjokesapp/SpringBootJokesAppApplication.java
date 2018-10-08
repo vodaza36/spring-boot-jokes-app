@@ -12,8 +12,4 @@ public class SpringBootJokesAppApplication {
         SpringApplication.run(SpringBootJokesAppApplication.class, args);
     }
 
-    @Bean
-    public ChuckNorrisQuotes chuckNorrisQuotes() {
-        return new ChuckNorrisQuotes();
-    }
 }
